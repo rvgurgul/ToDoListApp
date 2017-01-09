@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5975D91DEF54EF001E948F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5975D81DEF54EF001E948F /* Main.storyboard */; };
+		3F5975DD1DEF56A3001E948F /* NotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5975DC1DEF56A3001E948F /* NotesVC.swift */; };
+		3F5975DF1DEF589B001E948F /* NotebooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5975DE1DEF589B001E948F /* NotebooksVC.swift */; };
+		3F5975E11DF07357001E948F /* NoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5975E01DF07357001E948F /* NoteManager.swift */; };
+		3F5975E31DF0A9E3001E948F /* DateManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5975E21DF0A9E3001E948F /* DateManagerVC.swift */; };
+		3F5975E81DF0AB7A001E948F /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5975E71DF0AB7A001E948F /* DateManager.swift */; };
+		3F5975EA1DF1BF6B001E948F /* UIView Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5975E91DF1BF6B001E948F /* UIView Extension.swift */; };
+		3F5975EE1DF1E883001E948F /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5975ED1DF1E883001E948F /* NoteCell.swift */; };
+		3F8F8DA41DDB679500871E29 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F8DA31DDB679500871E29 /* Note.swift */; };
+		3F8F8DA61DDB934200871E29 /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F8DA51DDB934200871E29 /* Notebook.swift */; };
+		3F8F8DA81DDB9A6700871E29 /* NotebookManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F8DA71DDB9A6700871E29 /* NotebookManagerVC.swift */; };
+		3F8F8DAA1DDF483600871E29 /* NoteManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F8DA91DDF483600871E29 /* NoteManagerVC.swift */; };
+		3F8F8DAC1DE380A400871E29 /* NotebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F8DAB1DE380A400871E29 /* NotebookManager.swift */; };
 		3FA187601DDB5EA800726250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1875F1DDB5EA800726250 /* AppDelegate.swift */; };
-		3FA187621DDB5EA800726250 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA187611DDB5EA800726250 /* MasterViewController.swift */; };
-		3FA187641DDB5EA800726250 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA187631DDB5EA800726250 /* DetailViewController.swift */; };
-		3FA187671DDB5EA800726250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA187651DDB5EA800726250 /* Main.storyboard */; };
 		3FA187691DDB5EA800726250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA187681DDB5EA800726250 /* Assets.xcassets */; };
 		3FA1876C1DDB5EA800726250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA1876A1DDB5EA800726250 /* LaunchScreen.storyboard */; };
 		3FA187771DDB5EA800726250 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA187761DDB5EA800726250 /* ToDoTests.swift */; };
@@ -35,11 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5975D81DEF54EF001E948F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3F5975DC1DEF56A3001E948F /* NotesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesVC.swift; sourceTree = "<group>"; };
+		3F5975DE1DEF589B001E948F /* NotebooksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebooksVC.swift; sourceTree = "<group>"; };
+		3F5975E01DF07357001E948F /* NoteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteManager.swift; sourceTree = "<group>"; };
+		3F5975E21DF0A9E3001E948F /* DateManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateManagerVC.swift; sourceTree = "<group>"; };
+		3F5975E71DF0AB7A001E948F /* DateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		3F5975E91DF1BF6B001E948F /* UIView Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView Extension.swift"; sourceTree = "<group>"; };
+		3F5975ED1DF1E883001E948F /* NoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		3F8F8DA31DDB679500871E29 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		3F8F8DA51DDB934200871E29 /* Notebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
+		3F8F8DA71DDB9A6700871E29 /* NotebookManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotebookManagerVC.swift; path = ../NotebookManagerVC.swift; sourceTree = "<group>"; };
+		3F8F8DA91DDF483600871E29 /* NoteManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteManagerVC.swift; sourceTree = "<group>"; };
+		3F8F8DAB1DE380A400871E29 /* NotebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotebookManager.swift; sourceTree = "<group>"; };
 		3FA1875C1DDB5EA800726250 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA1875F1DDB5EA800726250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FA187611DDB5EA800726250 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		3FA187631DDB5EA800726250 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		3FA187661DDB5EA800726250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA187681DDB5EA800726250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA1876B1DDB5EA800726250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FA1876D1DDB5EA800726250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +96,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F5975E41DF0AAC9001E948F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3F8F8DAB1DE380A400871E29 /* NotebookManager.swift */,
+				3F5975E01DF07357001E948F /* NoteManager.swift */,
+				3F5975E71DF0AB7A001E948F /* DateManager.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3F5975E51DF0AAD8001E948F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F5975DE1DEF589B001E948F /* NotebooksVC.swift */,
+				3F8F8DA71DDB9A6700871E29 /* NotebookManagerVC.swift */,
+				3F5975DC1DEF56A3001E948F /* NotesVC.swift */,
+				3F8F8DA91DDF483600871E29 /* NoteManagerVC.swift */,
+				3F5975E21DF0A9E3001E948F /* DateManagerVC.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3F5975E61DF0AAF6001E948F /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F8F8DA51DDB934200871E29 /* Notebook.swift */,
+				3F8F8DA31DDB679500871E29 /* Note.swift */,
+				3F5975ED1DF1E883001E948F /* NoteCell.swift */,
+				3F5975E91DF1BF6B001E948F /* UIView Extension.swift */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
 		3FA187531DDB5EA700726250 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +152,14 @@
 		3FA1875E1DDB5EA800726250 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
-				3FA1875F1DDB5EA800726250 /* AppDelegate.swift */,
-				3FA187611DDB5EA800726250 /* MasterViewController.swift */,
-				3FA187631DDB5EA800726250 /* DetailViewController.swift */,
-				3FA187651DDB5EA800726250 /* Main.storyboard */,
 				3FA187681DDB5EA800726250 /* Assets.xcassets */,
-				3FA1876A1DDB5EA800726250 /* LaunchScreen.storyboard */,
+				3FA1875F1DDB5EA800726250 /* AppDelegate.swift */,
+				3F5975E41DF0AAC9001E948F /* Protocols */,
+				3F5975E51DF0AAD8001E948F /* View Controllers */,
+				3F5975E61DF0AAF6001E948F /* Custom Classes */,
 				3FA1876D1DDB5EA800726250 /* Info.plist */,
+				3FA1876A1DDB5EA800726250 /* LaunchScreen.storyboard */,
+				3F5975D81DEF54EF001E948F /* Main.storyboard */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -237,7 +291,7 @@
 			files = (
 				3FA1876C1DDB5EA800726250 /* LaunchScreen.storyboard in Resources */,
 				3FA187691DDB5EA800726250 /* Assets.xcassets in Resources */,
-				3FA187671DDB5EA800726250 /* Main.storyboard in Resources */,
+				3F5975D91DEF54EF001E948F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +316,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA187641DDB5EA800726250 /* DetailViewController.swift in Sources */,
-				3FA187621DDB5EA800726250 /* MasterViewController.swift in Sources */,
+				3F8F8DA81DDB9A6700871E29 /* NotebookManagerVC.swift in Sources */,
+				3F5975EE1DF1E883001E948F /* NoteCell.swift in Sources */,
 				3FA187601DDB5EA800726250 /* AppDelegate.swift in Sources */,
+				3F5975E11DF07357001E948F /* NoteManager.swift in Sources */,
+				3F5975EA1DF1BF6B001E948F /* UIView Extension.swift in Sources */,
+				3F8F8DA41DDB679500871E29 /* Note.swift in Sources */,
+				3F5975DF1DEF589B001E948F /* NotebooksVC.swift in Sources */,
+				3F5975DD1DEF56A3001E948F /* NotesVC.swift in Sources */,
+				3F8F8DA61DDB934200871E29 /* Notebook.swift in Sources */,
+				3F5975E81DF0AB7A001E948F /* DateManager.swift in Sources */,
+				3F8F8DAC1DE380A400871E29 /* NotebookManager.swift in Sources */,
+				3F5975E31DF0A9E3001E948F /* DateManagerVC.swift in Sources */,
+				3F8F8DAA1DDF483600871E29 /* NoteManagerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3FA187651DDB5EA800726250 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FA187661DDB5EA800726250 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3FA1876A1DDB5EA800726250 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -509,6 +565,7 @@
 				3FA187881DDB5EA800726250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA187891DDB5EA800726250 /* Build configuration list for PBXNativeTarget "ToDoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +574,7 @@
 				3FA1878B1DDB5EA800726250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA1878C1DDB5EA800726250 /* Build configuration list for PBXNativeTarget "ToDoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +583,7 @@
 				3FA1878E1DDB5EA800726250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
